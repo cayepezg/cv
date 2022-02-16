@@ -34,7 +34,7 @@ html, body {
     color: white;
     background-color: darkgray;
     font-size:25px;
-    width: 85%;
+    width: 86%;
     margin-left: 7.5%;
 }
 
@@ -95,13 +95,8 @@ html, body {
     border-right: 1px solid #000;;
 }
 
-.vline {
-    border-right: 1px solid;
-}
-
 .contenido {
     min-height:auto;
-    /* align-items: flex-start; */
 }
 
 .titulo1 {
@@ -114,8 +109,7 @@ html, body {
 }
 
 .item {
-    max-width: 50%; 
-    min-width: 50%;
+    width: 50%; 
 }
 
 ul > li {
@@ -127,6 +121,10 @@ ul > li {
         width: 100%;
     }
     .pizquierda {
+        width: 100%;
+    }
+
+    .item {
         width: 100%;
     }
 }
