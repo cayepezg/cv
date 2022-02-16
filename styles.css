@@ -1,0 +1,133 @@
+html, body {
+    height:100%;
+    margin:0;
+}
+
+.contenedor {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    align-items: stretch;
+    /* min-height:100%; */
+}
+
+.pderecha {
+    width:70%;
+    text-align: center;
+}
+
+.pizquierda {
+    width:30%;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.circle {
+    margin-top: 20px;
+    width: 60%;
+    border-radius: 50%;
+    /*border-color: white;*/
+    border: 3px solid white;
+}
+
+.t1 {
+    color: white;
+    background-color: darkgray;
+    font-size:25px;
+    width: 85%;
+    margin-left: 7.5%;
+}
+
+.tx1 {
+    text-align: justify;
+    width: 85%;
+    margin-left: 7.5%;
+    font-size: 20px;
+}
+
+.caja1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: lightgray;
+    color: black;
+    font-weight: 700;
+}
+
+.caja1 > .nombre {
+    margin: 0;
+    font-size: 50px;
+}
+
+.secc {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    align-items: stretch; 
+    min-width: 100%;
+}
+
+.detalle-izq {
+    margin-left: 10%;
+    width: 30%;
+    text-align: start;
+    color: gray;
+}
+
+.detalle-der {
+    width: 60%;
+}
+
+.checked {
+    color: orange;
+}
+
+.unchecked {
+    color: gray;
+}
+
+.media_caja {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    align-items: stretch;
+    max-width:50%;
+    margin-left: 7.5%;
+    border-right: 1px solid #000;;
+}
+
+.vline {
+    border-right: 1px solid;
+}
+
+.contenido {
+    min-height:auto;
+    /* align-items: flex-start; */
+}
+
+.titulo1 {
+    width: 100%;
+    margin: 0;
+}
+
+.titulo1 > p {
+    margin: 0;
+}
+
+.item {
+    max-width: 50%; 
+    min-width: 50%;
+}
+
+ul > li {
+    text-align: start;
+}
+
+@media only screen and (max-width: 960px) {
+    .pderecha {
+        width: 100%;
+    }
+    .pizquierda {
+        width: 100%;
+    }
+}
+
